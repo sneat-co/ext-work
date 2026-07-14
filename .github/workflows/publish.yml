@@ -15,5 +15,5 @@ jobs:
       working-directory: frontend
       install-command: pnpm install --no-frozen-lockfile --ignore-scripts
       build-command: pnpm exec nx build ext-work-contract
-      publish-command: pnpm exec nx release publish --projects=ext-work-contract
+      publish-command: pnpm exec nx release --yes
     secrets: inherit
